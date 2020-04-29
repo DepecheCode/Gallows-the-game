@@ -8,9 +8,9 @@ document.querySelector('#newgameButton').addEventListener('click', newGame);
 function newGame() {
 
     // NUMBER OF ATTEMPTS
-    let howManyAttempts = parseInt(prompt("Podaj, ile chcesz mieć strzałów (wybierz liczbę od 10 do 30):"));
-    while (isNaN(howManyAttempts) || howManyAttempts > 30 || howManyAttempts < 10) {
-        alert('Naciśnij przycisk "Nowa gra" i wybierz liczbę od 10 do 30.');
+    let howManyAttempts = parseInt(prompt("Podaj, ile chcesz mieć strzałów (wybierz liczbę od 15 do 30):"));
+    while (isNaN(howManyAttempts) || howManyAttempts > 30 || howManyAttempts < 15) {
+        alert('Naciśnij przycisk "Nowa gra" i wybierz liczbę od 15 do 30.');
         return false;
     }
 
